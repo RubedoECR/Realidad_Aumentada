@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 169c80bb64cbfb79e2af21945d285beb
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 408282
+  packageName: Construction Site Essentials
+  packageVersion: 1.0.1
+  assetPath: Assets/ConstructionSiteEssentials/Materials/URP/CSE_Rubber.mat
+  uploadId: 996800

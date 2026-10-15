@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e415edde561ad8c1e3220e7b70c7ae0e
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 408282
+  packageName: Construction Site Essentials
+  packageVersion: 1.0.1
+  assetPath: Assets/ConstructionSiteEssentials/Materials/BuiltIn/CSE_TealPaint.mat
+  uploadId: 996800

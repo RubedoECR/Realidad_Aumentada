@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: e65e8dd8bc04687c23e9ea4ac2215643
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 408282
+  packageName: Construction Site Essentials
+  packageVersion: 1.0.1
+  assetPath: Assets/ConstructionSiteEssentials/Materials/URP/CSE_BagGraphic.mat
+  uploadId: 996800

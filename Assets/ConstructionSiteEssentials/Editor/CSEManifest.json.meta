@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 8bd83cc668b8d40d56a174366f7e8790
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 408282
+  packageName: Construction Site Essentials
+  packageVersion: 1.0.1
+  assetPath: Assets/ConstructionSiteEssentials/Editor/CSEManifest.json
+  uploadId: 996800

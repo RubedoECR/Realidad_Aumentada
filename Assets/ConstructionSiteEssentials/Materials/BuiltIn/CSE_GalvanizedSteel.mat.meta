@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 6bd038bcc9366125cf375dfe06e6da4c
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 408282
+  packageName: Construction Site Essentials
+  packageVersion: 1.0.1
+  assetPath: Assets/ConstructionSiteEssentials/Materials/BuiltIn/CSE_GalvanizedSteel.mat
+  uploadId: 996800

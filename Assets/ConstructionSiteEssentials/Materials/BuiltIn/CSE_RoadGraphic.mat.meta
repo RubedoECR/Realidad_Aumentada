@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 09747a499efcc69ef0740a466b808094
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 408282
+  packageName: Construction Site Essentials
+  packageVersion: 1.0.1
+  assetPath: Assets/ConstructionSiteEssentials/Materials/BuiltIn/CSE_RoadGraphic.mat
+  uploadId: 996800

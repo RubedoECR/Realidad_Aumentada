@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 2bd7740213498994af375bf947825210
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 408282
+  packageName: Construction Site Essentials
+  packageVersion: 1.0.1
+  assetPath: Assets/ConstructionSiteEssentials/Materials/BuiltIn/CSE_Timber.mat
+  uploadId: 996800

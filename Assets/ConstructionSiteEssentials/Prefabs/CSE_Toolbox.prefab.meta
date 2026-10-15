@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 5cbcf5592563de3590886581919bd7a0
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 408282
+  packageName: Construction Site Essentials
+  packageVersion: 1.0.1
+  assetPath: Assets/ConstructionSiteEssentials/Prefabs/CSE_Toolbox.prefab
+  uploadId: 996800

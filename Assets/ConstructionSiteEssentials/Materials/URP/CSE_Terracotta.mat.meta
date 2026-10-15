@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8c5a9897845472d75f9d797eaeed7891
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 408282
+  packageName: Construction Site Essentials
+  packageVersion: 1.0.1
+  assetPath: Assets/ConstructionSiteEssentials/Materials/URP/CSE_Terracotta.mat
+  uploadId: 996800

@@ -1,0 +1,18 @@
+Construction Site Essentials — actual Unity import check
+Unity: 6000.4.0f1
+Pipeline: Built-In
+UTC: 2026-09-15T14:25:06.4186894Z
+TrafficCone: PASS
+SafetyBarrier: PASS
+HardHat: PASS
+Wheelbarrow: PASS
+Shovel: PASS
+CementBag: PASS
+Toolbox: PASS
+RoadSign: PASS
+PortableWorkLight: PASS
+BrickStack: PASS
+RebarBundle: PASS
+CautionSign: PASS
+Still manually inspect UV lightmap baking, collider behaviour, renders and target-device performance.
+Errors: 0

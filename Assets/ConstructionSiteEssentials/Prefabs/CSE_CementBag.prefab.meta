@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 00708203c8183e018039c3eb6220aad9
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 408282
+  packageName: Construction Site Essentials
+  packageVersion: 1.0.1
+  assetPath: Assets/ConstructionSiteEssentials/Prefabs/CSE_CementBag.prefab
+  uploadId: 996800

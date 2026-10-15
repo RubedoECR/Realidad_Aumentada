@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: d6e1722324b24196fb5f4603d82103ee
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 408282
+  packageName: Construction Site Essentials
+  packageVersion: 1.0.1
+  assetPath: Assets/ConstructionSiteEssentials/Prefabs/CSE_CautionSign.prefab
+  uploadId: 996800

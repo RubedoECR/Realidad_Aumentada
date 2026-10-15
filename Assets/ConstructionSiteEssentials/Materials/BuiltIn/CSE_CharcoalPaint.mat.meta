@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: a4e49d158fb62a2d4d528c1c662c035d
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 408282
+  packageName: Construction Site Essentials
+  packageVersion: 1.0.1
+  assetPath: Assets/ConstructionSiteEssentials/Materials/BuiltIn/CSE_CharcoalPaint.mat
+  uploadId: 996800

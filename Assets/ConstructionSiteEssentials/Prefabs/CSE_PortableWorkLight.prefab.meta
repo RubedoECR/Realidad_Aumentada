@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: 4ceef06a5ea8f023851e6b1eda2b7d6e
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 408282
+  packageName: Construction Site Essentials
+  packageVersion: 1.0.1
+  assetPath: Assets/ConstructionSiteEssentials/Prefabs/CSE_PortableWorkLight.prefab
+  uploadId: 996800

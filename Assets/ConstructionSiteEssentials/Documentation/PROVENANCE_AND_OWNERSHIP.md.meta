@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: ee9f32f9dd1bc239df604eb4016d6f39
+TextScriptImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 408282
+  packageName: Construction Site Essentials
+  packageVersion: 1.0.1
+  assetPath: Assets/ConstructionSiteEssentials/Documentation/PROVENANCE_AND_OWNERSHIP.md
+  uploadId: 996800

@@ -1,0 +1,26 @@
+CONSTRUCTION SITE ESSENTIALS — THIRD-PARTY NOTICES
+
+Asset content
+No third-party artist model, stock texture, photograph, audio, font file, game
+extract, branding asset, shader source copy or redistributable library is
+included in the original runtime asset content. All mesh/texture source was
+generated for this request from the supplied custom authoring code.
+
+Local build/preview tools (not redistributed)
+Python, NumPy, SciPy, Pillow, Trimesh and VTK were used as tools. Rebuilding with
+the optional Python workflow requires obtaining these tools under their own
+licenses; the game assets do not ship or execute those libraries.
+Blender is required only to run the optional native source reconstruction.
+Unity Editor and URP/Standard shaders remain Unity components, not bundled code.
+
+Preview typography
+Preview-board labels are rasterized using the locally installed DejaVu Sans
+font. DejaVu font changes are public domain; the underlying Bitstream Vera
+font license permits use. No font file is included, no font is embedded in a
+mesh or runtime texture, and there is no runtime font dependency. Geometry
+texture labels use the custom bitmap alphabet in author_pack.py instead.
+DejaVu license information: https://dejavu-fonts.github.io/License.html
+
+Names
+Unity, Blender and other product/tool names identify compatibility targets or
+tooling only. No endorsement or certification by those organizations is stated.

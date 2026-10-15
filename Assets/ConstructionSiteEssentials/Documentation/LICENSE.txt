@@ -1,0 +1,13 @@
+Construction Site Essentials — Unity Asset Store customer license notice
+
+For a copy acquired through the Unity Asset Store, use of this asset is governed
+by the applicable Unity Asset Store Terms of Service and End User License
+Agreement: https://unity.com/legal/as-terms
+
+This notice does not replace, expand, restrict or conflict with that agreement.
+No alternative customer EULA, stock-asset attribution term, paid runtime SDK,
+additional royalty or mandatory online registration is introduced by the pack.
+For an authorized copy acquired elsewhere, the license specified by its
+publisher/distributor governs. This file alone grants no unrelated third party
+standalone asset resale rights. Master commissioned-output rights are explained
+in the original delivery's LICENSE.txt and provenance notes.

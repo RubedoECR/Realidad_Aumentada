@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: eecbb0778e0d3591c4457c667afa8465
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 408282
+  packageName: Construction Site Essentials
+  packageVersion: 1.0.1
+  assetPath: Assets/ConstructionSiteEssentials/Materials/BuiltIn/CSE_ReflectiveWhite.mat
+  uploadId: 996800

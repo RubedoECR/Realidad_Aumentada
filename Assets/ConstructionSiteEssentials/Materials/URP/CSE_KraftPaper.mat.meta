@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 4192fc092ab9cd00424a9d1674800a88
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 408282
+  packageName: Construction Site Essentials
+  packageVersion: 1.0.1
+  assetPath: Assets/ConstructionSiteEssentials/Materials/URP/CSE_KraftPaper.mat
+  uploadId: 996800

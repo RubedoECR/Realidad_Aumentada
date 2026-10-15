@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: fbb044c3beb7ae1cd73b56bfe74e1a7f
+NativeFormatImporter:
+  externalObjects: {}
+  mainObjectFileID: 2100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 408282
+  packageName: Construction Site Essentials
+  packageVersion: 1.0.1
+  assetPath: Assets/ConstructionSiteEssentials/Materials/URP/CSE_SignalYellow.mat
+  uploadId: 996800

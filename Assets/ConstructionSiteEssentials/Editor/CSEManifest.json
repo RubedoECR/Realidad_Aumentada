@@ -1,0 +1,424 @@
+{
+  "version": "1.0.1",
+  "materials": [
+    {
+      "name": "SafetyOrange",
+      "base_color": [
+        0.95,
+        0.295,
+        0.055
+      ],
+      "metallic": 0.08,
+      "roughness": 0.43,
+      "kind": "paint",
+      "texture_size": 512
+    },
+    {
+      "name": "SignalYellow",
+      "base_color": [
+        0.98,
+        0.69,
+        0.035
+      ],
+      "metallic": 0.03,
+      "roughness": 0.4,
+      "kind": "paint",
+      "texture_size": 512
+    },
+    {
+      "name": "TealPaint",
+      "base_color": [
+        0.075,
+        0.34,
+        0.32
+      ],
+      "metallic": 0.35,
+      "roughness": 0.42,
+      "kind": "paint",
+      "texture_size": 512
+    },
+    {
+      "name": "GalvanizedSteel",
+      "base_color": [
+        0.48,
+        0.53,
+        0.55
+      ],
+      "metallic": 0.92,
+      "roughness": 0.34,
+      "kind": "steel",
+      "texture_size": 512
+    },
+    {
+      "name": "Rubber",
+      "base_color": [
+        0.045,
+        0.055,
+        0.067
+      ],
+      "metallic": 0.0,
+      "roughness": 0.82,
+      "kind": "rubber",
+      "texture_size": 512
+    },
+    {
+      "name": "Timber",
+      "base_color": [
+        0.6,
+        0.39,
+        0.205
+      ],
+      "metallic": 0.0,
+      "roughness": 0.78,
+      "kind": "wood",
+      "texture_size": 512
+    },
+    {
+      "name": "KraftPaper",
+      "base_color": [
+        0.72,
+        0.64,
+        0.47
+      ],
+      "metallic": 0.0,
+      "roughness": 0.87,
+      "kind": "paper",
+      "texture_size": 512
+    },
+    {
+      "name": "Terracotta",
+      "base_color": [
+        0.64,
+        0.25,
+        0.135
+      ],
+      "metallic": 0.0,
+      "roughness": 0.91,
+      "kind": "brick",
+      "texture_size": 512
+    },
+    {
+      "name": "ReflectiveWhite",
+      "base_color": [
+        0.91,
+        0.925,
+        0.89
+      ],
+      "metallic": 0.12,
+      "roughness": 0.27,
+      "kind": "paint",
+      "texture_size": 512
+    },
+    {
+      "name": "CharcoalPaint",
+      "base_color": [
+        0.07,
+        0.105,
+        0.125
+      ],
+      "metallic": 0.42,
+      "roughness": 0.46,
+      "kind": "paint",
+      "texture_size": 512
+    },
+    {
+      "name": "HazardStripes",
+      "base_color": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.04,
+      "roughness": 0.49,
+      "kind": "stripe",
+      "texture_size": 1024
+    },
+    {
+      "name": "RoadGraphic",
+      "base_color": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.04,
+      "roughness": 0.43,
+      "kind": "road",
+      "texture_size": 1024
+    },
+    {
+      "name": "CautionGraphic",
+      "base_color": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.51,
+      "kind": "caution",
+      "texture_size": 1024
+    },
+    {
+      "name": "BagGraphic",
+      "base_color": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.0,
+      "roughness": 0.88,
+      "kind": "bag",
+      "texture_size": 1024
+    },
+    {
+      "name": "WorklightLens",
+      "base_color": [
+        1,
+        1,
+        1
+      ],
+      "metallic": 0.08,
+      "roughness": 0.21,
+      "kind": "led",
+      "texture_size": 1024
+    }
+  ],
+  "props": [
+    {
+      "name": "TrafficCone",
+      "materials": [
+        "Rubber",
+        "SafetyOrange",
+        "ReflectiveWhite"
+      ],
+      "triangles": 1548,
+      "dimensions": [
+        0.38,
+        0.38,
+        0.587
+      ],
+      "demoPosition": [
+        -1.25,
+        0,
+        -0.7
+      ]
+    },
+    {
+      "name": "SafetyBarrier",
+      "materials": [
+        "Rubber",
+        "SafetyOrange",
+        "GalvanizedSteel",
+        "ReflectiveWhite",
+        "HazardStripes"
+      ],
+      "triangles": 2172,
+      "dimensions": [
+        1.85,
+        0.6,
+        1.01
+      ],
+      "demoPosition": [
+        0,
+        0,
+        0.9
+      ]
+    },
+    {
+      "name": "HardHat",
+      "materials": [
+        "SignalYellow",
+        "CharcoalPaint"
+      ],
+      "triangles": 4032,
+      "dimensions": [
+        0.336,
+        0.438,
+        0.2205
+      ],
+      "demoPosition": [
+        -0.05,
+        0,
+        -0.8
+      ]
+    },
+    {
+      "name": "Wheelbarrow",
+      "materials": [
+        "TealPaint",
+        "CharcoalPaint",
+        "Rubber",
+        "GalvanizedSteel",
+        "SafetyOrange"
+      ],
+      "triangles": 4688,
+      "dimensions": [
+        0.6419925323392128,
+        1.5454263469549527,
+        0.758
+      ],
+      "demoPosition": [
+        0.3,
+        0,
+        0.03
+      ]
+    },
+    {
+      "name": "Shovel",
+      "materials": [
+        "GalvanizedSteel",
+        "CharcoalPaint",
+        "Timber",
+        "SafetyOrange",
+        "Rubber"
+      ],
+      "triangles": 592,
+      "dimensions": [
+        0.264,
+        0.186,
+        1.172
+      ],
+      "demoPosition": [
+        -1.0,
+        0,
+        0.2
+      ]
+    },
+    {
+      "name": "CementBag",
+      "materials": [
+        "KraftPaper",
+        "Timber",
+        "BagGraphic"
+      ],
+      "triangles": 3898,
+      "dimensions": [
+        0.5,
+        0.34800000000000003,
+        0.15
+      ],
+      "demoPosition": [
+        -0.65,
+        0,
+        -0.85
+      ]
+    },
+    {
+      "name": "Toolbox",
+      "materials": [
+        "SafetyOrange",
+        "CharcoalPaint",
+        "Rubber",
+        "GalvanizedSteel"
+      ],
+      "triangles": 4164,
+      "dimensions": [
+        0.473,
+        0.29100000000000004,
+        0.4139136268947359
+      ],
+      "demoPosition": [
+        0.55,
+        0,
+        -0.95
+      ]
+    },
+    {
+      "name": "RoadSign",
+      "materials": [
+        "Rubber",
+        "GalvanizedSteel",
+        "SignalYellow",
+        "RoadGraphic",
+        "CharcoalPaint"
+      ],
+      "triangles": 1542,
+      "dimensions": [
+        0.7813557277321822,
+        0.44,
+        1.870677863866091
+      ],
+      "demoPosition": [
+        -1.65,
+        0,
+        0.75
+      ]
+    },
+    {
+      "name": "PortableWorkLight",
+      "materials": [
+        "CharcoalPaint",
+        "Rubber",
+        "GalvanizedSteel",
+        "SafetyOrange",
+        "WorklightLens"
+      ],
+      "triangles": 5156,
+      "dimensions": [
+        0.832,
+        0.7901408311032395,
+        1.7279269625981215
+      ],
+      "demoPosition": [
+        1.55,
+        0,
+        0.75
+      ]
+    },
+    {
+      "name": "BrickStack",
+      "materials": [
+        "Terracotta"
+      ],
+      "triangles": 3384,
+      "dimensions": [
+        0.6738727145156727,
+        0.22681207987811378,
+        0.212
+      ],
+      "demoPosition": [
+        -1.8,
+        0,
+        -0.95
+      ]
+    },
+    {
+      "name": "RebarBundle",
+      "materials": [
+        "Timber",
+        "GalvanizedSteel",
+        "CharcoalPaint"
+      ],
+      "triangles": 6480,
+      "dimensions": [
+        2.07,
+        0.24,
+        0.18010445600046504
+      ],
+      "demoPosition": [
+        -0.15,
+        0,
+        -1.5
+      ]
+    },
+    {
+      "name": "CautionSign",
+      "materials": [
+        "SignalYellow",
+        "Rubber",
+        "CautionGraphic",
+        "CharcoalPaint"
+      ],
+      "triangles": 3912,
+      "dimensions": [
+        0.382,
+        0.48729763412025384,
+        0.7024266448988641
+      ],
+      "demoPosition": [
+        1.35,
+        0,
+        -0.65
+      ]
+    }
+  ]
+}

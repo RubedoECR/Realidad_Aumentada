@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: abe4a684dd0903ae9c21191aaa3dad85
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 408282
+  packageName: Construction Site Essentials
+  packageVersion: 1.0.1
+  assetPath: Assets/ConstructionSiteEssentials/Prefabs/CSE_RebarBundle.prefab
+  uploadId: 996800

@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: b357e957a7e9489d81b6907f00b2da27
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 408282
+  packageName: Construction Site Essentials
+  packageVersion: 1.0.1
+  assetPath: Assets/ConstructionSiteEssentials/Prefabs/CSE_Shovel.prefab
+  uploadId: 996800

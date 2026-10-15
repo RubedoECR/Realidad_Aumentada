@@ -1,0 +1,14 @@
+fileFormatVersion: 2
+guid: a7061ed575fd23f1dd3cc9e14e89c3d0
+PrefabImporter:
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 408282
+  packageName: Construction Site Essentials
+  packageVersion: 1.0.1
+  assetPath: Assets/ConstructionSiteEssentials/Prefabs/CSE_SafetyBarrier.prefab
+  uploadId: 996800
