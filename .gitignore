@@ -18,3 +18,7 @@
 *.apk
 *.aab
 *.unitypackage
+
+*.slnx
+[Aa]ssets/_Recovery/
+[Aa]ssets/_Recovery.meta
