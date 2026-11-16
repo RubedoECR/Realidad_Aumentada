@@ -1,3 +1,4 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 /// <summary>
@@ -18,6 +19,19 @@ public class ManoProcedural : MonoBehaviour
     [Header("Pose de los dedos")]
     [Range(0f, 90f)] public float curvaturaDedos = 12f;
     [Range(0f, 60f)] public float curvaturaPulgar = 15f;
+
+    [Header("Cerrar la mano")]
+    [Tooltip("0 = abierta, 1 = puño cerrado. Lo puede cambiar otro script (BrazoBNO085)")]
+    [Range(0f, 1f)] public float cierre = 0f;
+    [Tooltip("Cuánto se dobla cada nudillo con la mano cerrada")]
+    public float anguloCierreDedos = 65f;
+    public float anguloCierrePulgar = 35f;
+
+    // Nudillos que se doblan al cerrar
+    readonly List<Transform> nudillos = new List<Transform>();
+    readonly List<Quaternion> rotacionBase = new List<Quaternion>();
+    readonly List<bool> esPulgar = new List<bool>();
+    float cierreAplicado = -1f;
 
     // Medidas en metros
     const float anchoPalma = 0.085f;
@@ -42,6 +56,11 @@ public class ManoProcedural : MonoBehaviour
             else DestroyImmediate(vieja.gameObject);
         }
 
+        nudillos.Clear();
+        rotacionBase.Clear();
+        esPulgar.Clear();
+        cierreAplicado = -1f;
+
         materialPiel = CrearMaterial();
         float lado = manoDerecha ? 1f : -1f;
 
@@ -50,7 +69,7 @@ public class ManoProcedural : MonoBehaviour
         raiz.localScale = Vector3.one * escala;
 
         // Muñeca
-        Transform muneca = Pieza(PrimitiveType.Capsule, "Muneca", raiz,
+        Pieza(PrimitiveType.Capsule, "Muneca", raiz,
             new Vector3(0, 0, -0.02f), new Vector3(0.06f, 0.025f, 0.05f),
             Quaternion.Euler(90, 0, 0));
 
@@ -93,6 +112,9 @@ public class ManoProcedural : MonoBehaviour
 
             // Nudillo (articulación que se dobla)
             articulacion.localRotation *= Quaternion.Euler(curva, 0, 0);
+            nudillos.Add(articulacion);
+            rotacionBase.Add(articulacion.localRotation);
+            esPulgar.Add(nombre == "Pulgar");
 
             // Falange: cápsula orientada hacia +Z
             Pieza(PrimitiveType.Capsule, nombre + "_F" + (f + 1), articulacion,
@@ -105,6 +127,18 @@ public class ManoProcedural : MonoBehaviour
             siguiente.SetParent(articulacion, false);
             siguiente.localPosition = new Vector3(0, 0, largo);
             articulacion = siguiente;
+        }
+    }
+
+    void Update()
+    {
+        if (Mathf.Approximately(cierre, cierreAplicado)) return;
+        cierreAplicado = cierre;
+        for (int i = 0; i < nudillos.Count; i++)
+        {
+            if (nudillos[i] == null) continue;
+            float angulo = cierre * (esPulgar[i] ? anguloCierrePulgar : anguloCierreDedos);
+            nudillos[i].localRotation = rotacionBase[i] * Quaternion.Euler(angulo, 0, 0);
         }
     }
 
